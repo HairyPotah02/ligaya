@@ -71,7 +71,7 @@ BASE_PM_TEXT = """
 
 `You have {}/{} of warns! Be careful, if you've exceeded warn limit you'll be blocked 🛑!`
 """
-DEFAULT_PM_PIC = "https://telegra.ph//file/44b07848c13bfabd2c76c.jpg"
+DEFAULT_PM_PIC = "https://telegra.ph/file/9859a6527b3751c382308.jpg"
 DEFAULT_PM_MESSAGE_LIMIT = 5
 
 
