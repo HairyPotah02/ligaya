@@ -3,7 +3,7 @@ import tgcrypto
 from pyrogram import Client
 
 print("""
-|| Ligaya Userbot ||
+|| Mutya Userbot ||
 
 
 Copyright (c) 2021 EngrJuanMala
@@ -16,7 +16,7 @@ async def pyro_str():
     async with Client(":memory:", api_id, api_hash) as NEXAUB:
         pyro_session = await NEXAUB.export_session_string()
         session_msg = await NEXAUB.send_message("me", f"`{pyro_session}`")
-        await session_msg.reply_text("Successfully Generated String Session! **Thanks for trying [Ligaya Userbot](https://github.com/HairyPotah02/Ligaya) 😊** \n\n**Join @NexaBotsUpdates**", disable_web_page_preview=True)
+        await session_msg.reply_text("Successfully Generated String Session! **Thanks for trying [Ligaya Userbot](https://github.com/HairyPotah02/Ligaya) 😊**", disable_web_page_preview=True)
         print("\n🎉 String Session has been sent to your saved messages. Please check it. Thank You!\n")
 
 if __name__ == "__main__":

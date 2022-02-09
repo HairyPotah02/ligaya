@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  🌠 Ligaya Userbot 🌠
+  🌠 Mutya Userbot 🌠
 </h1>
 
 <p align="center">
@@ -15,10 +15,13 @@
 
 ### With Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HairyPotah02/ligaya)
+## Heroku Deployment 💜
+The easy way to host this bot, deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HairyPotah02/Ligaya)
 
 - Fork the repo and copy your forked repo link
-- Now go to `https://heroku.com/deploy?template=<https://github.com/HairyPotah02/Ligaya>` (Replace `YOUR_FORKED_LINK_HERE` with copied repo link)
+- Now go to `https://heroku.com/deploy?template=<https://github.com/HairyPotah02/mutya>` (Replace `YOUR_FORKED_LINK_HERE` with copied repo link)
 - Fill the config vars and deploy!
 
 
@@ -38,7 +41,7 @@ Please Read the [Docs](https://nexaub.itz-fork.xyz/docs/get-started/installation
 Read more about config vars at [Docs](https://nexaub.itz-fork.xyz/docs/get-started/configs/)
 
 # About ❓
-[Ligaya Userbot](https://github.com/HairyPotah02/Ligaya) is one of my hobby projects. I made this userbot to introduce a userbot **without bot mode** because I wanted to try something different. So this'll be a minimal userbot with some ~~basic~~ functions. Btw if you found a bug please report it at [ Owner ](https://t.me/EngrJuanMala) 🐞. Thanks for reading ✨!
+[Mutya Userbot](https://github.com/HairyPotah02/Mutya) is one of my hobby projects. I made this userbot to introduce a userbot **without bot mode** because I wanted to try something different. So this'll be a minimal userbot with some ~~basic~~ functions. Btw if you found a bug please report it at [ Owner ](https://t.me/EngrJuanMala) 🐞. Thanks for reading ✨!
 
 # Credits ❤️,
 - Developers Userbot
@@ -46,9 +49,9 @@ Read more about config vars at [Docs](https://nexaub.itz-fork.xyz/docs/get-start
 - TheHamkercat [For some plugins]
 
 # License
-This repository is license under [GPL-3 License](https://github.com/HairyPotah02/Ligaya/blob/master/LICENSE)
+This repository is license under [GPL-3 License](https://github.com/HairyPotah02/mutya/blob/master/LICENSE)
 
 <p align="center">
   </br></br>
-  <b>Copyright (c) 2021 - HairyPotah02 | Ligaya Userbot</b>
+  <b>Copyright (c) 2021 - HairyPotah02 | Mutya Userbot</b>
 </p>

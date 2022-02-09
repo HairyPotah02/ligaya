@@ -35,7 +35,7 @@ CMD_HELP.update(
 )
 
 
-UPSTREAM_REPO_URL = "https://github.com/HairyPotah02/Ligaya"
+UPSTREAM_REPO_URL = "https://github.com/HairyPotah02/ligaya"
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
 )
@@ -65,7 +65,7 @@ async def updateme_requirements():
 
 @nexaub.on_cmd(command=["update"])
 async def upstream(client, message):
-    status = await e_or_r(nexaub_message=message, msg_text=f"`Checking For Updates from` [Nexa-Userbot]({UPSTREAM_REPO_URL}) `Repo...`")
+    status = await e_or_r(nexaub_message=message, msg_text=f"`Checking For Updates from` [Ligaya-Userbot]({UPSTREAM_REPO_URL}) `Repo...`")
     conf = get_arg(message)
     off_repo = UPSTREAM_REPO_URL
     txt = "`Oops! Updater Can't Continue...`"
@@ -128,7 +128,7 @@ async def upstream(client, message):
                 )
         else:
             await status.edit(
-                f"**✨ Nexa-Userbot is Up-to-date** \n\n**Branch:** [{ac_br}]({UPSTREAM_REPO_URL}/tree/{ac_br})\n",
+                f"**✨ Ligaya-Userbot is Up-to-date** \n\n**Branch:** [{ac_br}]({UPSTREAM_REPO_URL}/tree/{ac_br})\n",
                 disable_web_page_preview=True,
             )
             repo.__del__()
@@ -190,7 +190,7 @@ async def restart_nexaub():
 @nexaub.on_cmd(command=["restart"])
 async def restart(client, message):
     restart_msg = await e_or_r(nexaub_message=message, msg_text="`Processing...`")
-    await restart_msg.edit("`Nexa-Userbot is restarting! Please wait...`")
+    await restart_msg.edit("`Ligaya-Userbot is restarting! Please wait...`")
     try:
         await restart_nexaub()
     except Exception as e:

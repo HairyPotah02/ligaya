@@ -4,7 +4,7 @@ echo "
 ============ Ligaya Userbot ============
 
 
-Copyright (c) 2021 Liagaya | @EngrJuanMala
+Copyright (c) 2021 Itz-fork | @EngrjuanMala
 "
 
 start_nexaub () {
